@@ -2,7 +2,7 @@ if (!exists("power_dataset")) {
   source("_prepare_dataset.R")
 }
 
-op <- par(mfcol = c(2,2),  mar = c(6,6,1,0))
+op <- par(mfcol = c(2,2),  mar = c(6,6,1,1))
 par(cex = 0.7)
 
 # plot 1 (plot2.R)
